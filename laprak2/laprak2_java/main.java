@@ -7,9 +7,11 @@ public class main {
 
     public static void main(String[] args) {
 
+        // list untuk mahasiswa dan sivitas akademik
         List<Mahasiswa> Hlist = new ArrayList<>();
         List<SivitasAkademik> Slist = new ArrayList<>();
 
+        // memasukkan inputan secara hardcode
         SivitasAkademik sivitasAkademik = new SivitasAkademik();
         Mahasiswa temp = new Mahasiswa();
 
@@ -71,6 +73,7 @@ public class main {
         Hlist.add(temp4);
         Slist.add(sivitasAkademik4);
 
+        // menampilkan list
         System.out.println("Berikut isi dari list Mahasiswa: ");
         for (Mahasiswa mahasiswa : Hlist) {
             System.out.println(mahasiswa.getNama() + " " + mahasiswa.getNim() + " " +
