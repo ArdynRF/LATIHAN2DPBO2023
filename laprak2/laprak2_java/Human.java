@@ -1,22 +1,27 @@
 package laprak2_java;
 
+// class Human ini merupakan parents dari class Mahasiswa
 class Human {
+    // atribut atribut dari class Human
     private String nama;
     private int nik;
     private String Kelamin;
 
+    // constructor
     public Human() {
         this.nama = "";
         this.nik = 0;
         this.Kelamin = "-";
     }
-
+    
+    // constructor
     public Human(String nama, int nik, String Kelamin) {
         this.nama = nama;
         this.nik = nik;
         this.Kelamin = Kelamin;
     }
 
+    // fungsi set dan get
     public String getNama() {
         return this.nama;
     }
@@ -43,23 +48,28 @@ class Human {
 
 }
 
+// class mahasiswa merupakan child dari class Human
 class Mahasiswa extends Human {
+    // atribut atribut dari class Mahasiswa
     private int nim;
     private String prodi;
     private String fakultas;
 
+    // constructor
     public Mahasiswa() {
         this.nim = 0;
         this.prodi = "-";
         this.fakultas = "-";
     }
 
+    //constructor
     public Mahasiswa(int nim, String prodi, String fakultas) {
         this.nim = nim;
         this.prodi = prodi;
         this.fakultas = fakultas;
     }
 
+    // fungsi set dan get
     public int getNim() {
         return this.nim;
     }
