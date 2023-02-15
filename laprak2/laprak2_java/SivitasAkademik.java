@@ -1,10 +1,12 @@
 package laprak2_java;
 
-
+// class sivitas akademik ini bukan merupakan child dari Human dikarenakan sivitas akademik tidak berhubungan dengan Human
 class SivitasAkademik extends Mahasiswa {
+    // atribut atribut 
     private String asal_univ;
     private String email;
 
+    // constructors
     public SivitasAkademik() {
         this.asal_univ = "-";
         this.email = "-";
@@ -15,6 +17,7 @@ class SivitasAkademik extends Mahasiswa {
         this.email = email;
     }
 
+    // fungsi set dan get
     public String getUniv() {
         return this.asal_univ;
     }
