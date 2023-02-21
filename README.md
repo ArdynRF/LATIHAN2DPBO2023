@@ -38,6 +38,7 @@ Di bagian main terdapat 'arrray of object' class `Sivitas Akademik`, dengan demi
 ![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Untitled%20Diagram.drawio.png)
 
 ## Screenshot Program
+* **PHP**
 ![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Screenshot%202023-02-21%20180622.png)
-![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Untitled%20Diagram.drawio.png)
-
+* **Python**
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Screenshot%202023-02-21%20180535.png)
