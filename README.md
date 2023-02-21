@@ -8,7 +8,7 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
   o SivitasAkademik: asal_universitas, email_edu
 
 ## Desain Program
-Program didesain menjadi dua class:
+Program didesain menjadi tiga class:
 * **Human**
 * **Mahasiswa**
 * **SivitasAkademik**
@@ -26,8 +26,11 @@ pada class 'Mahasiswa' terdapat tiga atribut:
 
 Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class `Mahasiswa`.
 
-Kemudian pada class 'SivitasAkademik' bukanlah dari pewarisan dari class 'Human' karena class 'SivitasAkademik' tidak berhubungan dengan class 'Human'
+Kemudian pada class 'SivitasAkademik' meruapakan pewarisan dari class 'Mahasiswa'
 pada class 'SivitasAkademik' memiliki dua atribut:
 * **asal_universitas**   -> merupakan asal universitas mahasiswa, tipe data `string`
 * **email**              -> merupakan email mahasiswa, tipe data `string`
+
+## Diagram UML
+
 
