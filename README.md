@@ -31,6 +31,13 @@ pada class 'SivitasAkademik' memiliki dua atribut:
 * **asal_universitas**   -> merupakan asal universitas mahasiswa, tipe data `string`
 * **email**              -> merupakan email mahasiswa, tipe data `string`
 
+##Alur Program
+Di bagian main terdapat 'arrray of object' class `Sivitas Akademik`, dengan demikian class `Human` dan `Mahasiswa` dapat digunakan. Untuk mengisi array menggunakan Hardcode
+
 ## Diagram UML
-https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Untitled%20Diagram.drawio.png
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Untitled%20Diagram.drawio.png)
+
+## Screenshot Program
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Untitled%20Diagram.drawio.png)
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Untitled%20Diagram.drawio.png)
 
