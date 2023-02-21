@@ -32,5 +32,5 @@ pada class 'SivitasAkademik' memiliki dua atribut:
 * **email**              -> merupakan email mahasiswa, tipe data `string`
 
 ## Diagram UML
-
+https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Untitled%20Diagram.drawio.png
 
