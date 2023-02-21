@@ -8,7 +8,7 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
   o SivitasAkademik: asal_universitas, email_edu
 
 ## Desain Program
-Program didesain menjadi dua class:
+Program didesain menjadi tiga class:
 * **Human**
 * **Mahasiswa**
 * **SivitasAkademik**
@@ -18,7 +18,7 @@ Pada class `Human` terdapat tiga atribut:
 * **nik**                -> merupakan NIK human, bertipe data `int`
 * **jenis_kelamin**      -> merupakan jenis kelamin human, bertipe data `string`
 
-Lalu pada class 'Mahasiswa', merupakan pewarisan dari class 'Human'
+Lalu pada class `Mahasiswa`, merupakan pewarisan dari class `Human`
 pada class 'Mahasiswa' terdapat tiga atribut:
 * **nim**               -> merupakan nim mahasiswa, tipe data `int`
 * **fakultas**          -> merupakan fakultas mahasiswa, tipe data `string`
@@ -26,8 +26,19 @@ pada class 'Mahasiswa' terdapat tiga atribut:
 
 Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class `Mahasiswa`.
 
-Kemudian pada class 'SivitasAkademik' bukanlah dari pewarisan dari class 'Human' karena class 'SivitasAkademik' tidak berhubungan dengan class 'Human'
+Kemudian pada class `SivitasAkademik` meruapakan pewarisan dari class `Mahasiswa`
 pada class 'SivitasAkademik' memiliki dua atribut:
 * **asal_universitas**   -> merupakan asal universitas mahasiswa, tipe data `string`
 * **email**              -> merupakan email mahasiswa, tipe data `string`
 
+##Alur Program
+Di bagian main terdapat 'arrray of object' class `Sivitas Akademik`, dengan demikian class `Human` dan `Mahasiswa` dapat digunakan. Untuk mengisi array menggunakan Hardcode
+
+## Diagram UML
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Untitled%20Diagram.drawio.png)
+
+## Screenshot Program
+* **PHP**
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Screenshot%202023-02-21%20180622.png)
+* **Python**
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Screenshot%202023-02-21%20180535.png)
