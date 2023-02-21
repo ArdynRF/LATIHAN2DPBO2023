@@ -18,7 +18,7 @@ Pada class `Human` terdapat tiga atribut:
 * **nik**                -> merupakan NIK human, bertipe data `int`
 * **jenis_kelamin**      -> merupakan jenis kelamin human, bertipe data `string`
 
-Lalu pada class 'Mahasiswa', merupakan pewarisan dari class 'Human'
+Lalu pada class `Mahasiswa`, merupakan pewarisan dari class `Human`
 pada class 'Mahasiswa' terdapat tiga atribut:
 * **nim**               -> merupakan nim mahasiswa, tipe data `int`
 * **fakultas**          -> merupakan fakultas mahasiswa, tipe data `string`
@@ -26,7 +26,7 @@ pada class 'Mahasiswa' terdapat tiga atribut:
 
 Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class `Mahasiswa`.
 
-Kemudian pada class 'SivitasAkademik' meruapakan pewarisan dari class 'Mahasiswa'
+Kemudian pada class `SivitasAkademik` meruapakan pewarisan dari class `Mahasiswa`
 pada class 'SivitasAkademik' memiliki dua atribut:
 * **asal_universitas**   -> merupakan asal universitas mahasiswa, tipe data `string`
 * **email**              -> merupakan email mahasiswa, tipe data `string`
